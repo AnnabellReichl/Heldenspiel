@@ -2,7 +2,7 @@
 /**
  * Beschreiben Sie hier die Klasse Waffe.
  * 
- * @author (Ihr Name) 
+ * @author (AniMaL) 
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class Waffe

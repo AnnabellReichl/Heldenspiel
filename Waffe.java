@@ -8,7 +8,7 @@
 public class Waffe
 {
     int bonus;
-    //String material;
+    //String[] material = {"Holz", "Eisen", };
     //int magie;
     // array mit materialien?
     // if(material == "Holz"){

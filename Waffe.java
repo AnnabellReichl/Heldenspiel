@@ -7,7 +7,7 @@
  */
 public class Waffe
 {
-    //int bonus;
+    int bonus;
     //String material;
     //int magie;
     // array mit materialien?

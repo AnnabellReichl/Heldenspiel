@@ -1,4 +1,5 @@
 
+
 /**
  * Beschreiben Sie hier die Klasse Waffe.
  * 
@@ -12,20 +13,29 @@ public class Waffe
     private int magie;
     
     
-    public Waffe(String pMaterial){
+    public Waffe(String pMaterial; int pMagie)
+    {
         material = pMaterial;
-        if(material.equals("Holz")){
+        magie = pMagie;
+        if(material.equals("Holz"))
+        {
             bonus = 3;
         }
-        if(material.equals("Titan")){
+        if(material.equals("Titan"))
+        {
             bonus = 10;
         }
-        if(material.equals("Plastik")){
+        if(material.equals("Plastik"))
+        {
             bonus = 0;
         }
-
+        bonusBerechnen();
+    }
+    public bonusBerechnen();
+    {
         bonus = bonus + magie;
-
-    }     
+    }
+         
     
+
 }

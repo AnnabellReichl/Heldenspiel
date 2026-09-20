@@ -6,14 +6,14 @@
  */
 public class Held
 {
-    public String name;
+    protected String name;
     private int staerke;
-    public int angriffswert;
+    protected double angriffswert;
     public int lebenspunkte;
     private Waffe meineWaffe;
     
 
-    public Held(String pName; int pStaerke;)
+    public Held(String pName, int pStaerke)
     {
         name = pName;
         if((pStaerke >= 0)&&(pStaerke <= 10))
@@ -24,14 +24,14 @@ public class Held
         {
             staerke = 2;
         }
-        angriffswertBerechnen();
+        angriffswert = angriffswertBerechnen();
       
     }
-    private void angriffswertBerechnen()
+    public double angriffswertBerechnen()
     {
-        angriffswert = staerke + meineWaffe.bonus;
+        return staerke + meineWaffe.bonusBerechnen();  
     }
-    public int getAngriffswert()
+    public double getAngriffswert()
     {
         return angriffswert;
     }

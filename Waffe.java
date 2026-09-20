@@ -7,12 +7,12 @@
  */
 public class Waffe
 {
-    private int bonus = 0;
+    private double bonus = 0;
     private String material;
-    private int magie;
+    private double  magie;
     
     
-    public Waffe(String pMaterial; int pMagie)
+    public Waffe(String pMaterial, double pMagie)
     {
         material = pMaterial;
         if((pMagie >= 0) && (pMagie <= 10))
@@ -37,9 +37,10 @@ public class Waffe
         }
         bonusBerechnen();
     }
-    public bonusBerechnen();
+    public double bonusBerechnen()
     {
         bonus = bonus + magie;
+        return bonus;
     }
          
     
@@ -49,4 +50,3 @@ public class Waffe
 
     
 
-}

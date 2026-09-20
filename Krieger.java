@@ -16,12 +16,12 @@ class Krieger extends Held
          angriffswert = angriffswertBerechnen();
     }
     
-    public int getAusdauer()
+    public double getAusdauer()
     {
         return ausdauer; 
     }
 
-    public int angriffswertBerechnen()
+    public double angriffswertBerechnen()
     {
         return super.angriffswertBerechnen() * ausdauer;
     }

@@ -27,9 +27,13 @@ public class Held
         angriffswertBerechnen();
       
     }
-    private angriffswertBerechnen();
+    private void angriffswertBerechnen()
     {
         angriffswert = staerke + meineWaffe.bonus;
+    }
+    public int getAngriffswert()
+    {
+        return angriffswert;
     }
         
 }

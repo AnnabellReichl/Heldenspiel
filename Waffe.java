@@ -9,7 +9,7 @@ public class Waffe
 {
     private double bonus = 0;
     private String material;
-    private double  magie;
+    private double magie;
     
     
     public Waffe(String pMaterial, double pMagie)

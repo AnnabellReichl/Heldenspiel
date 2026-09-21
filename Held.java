@@ -9,7 +9,7 @@ public class Held
     protected String name;
     private int staerke;
     protected double angriffswert;
-    public int lebenspunkte;
+    public int lebenspunkte = 10;
     private Waffe meineWaffe;
     
 

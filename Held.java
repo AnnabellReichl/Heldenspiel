@@ -39,6 +39,13 @@ public class Held
     public String getName() {
         return name;
     }
+    public int getStaerke(){
+        return staerke
+    }
+    public int getLebenspunkte(){
+        return lebespunkte
+    }
+    
         
 }
 

@@ -35,6 +35,10 @@ public class Held
     {
         return angriffswert;
     }
+
+    public String getName() {
+        return name;
+    }
         
 }
 

@@ -31,7 +31,25 @@ public class Turnier {
 
     public void namenAusgeben() {
         for(int i =0; i<h.length; i++) {
-            System.out.println(h[i].getName)
+            System.out.println(h[i].getName())
+        }
+    }
+
+    public void staerkeAusgeben() {
+        for (int i =0; i<h.length; i++) {
+            System.out.println(h[i].getStaerke()
+        }
+    }
+
+    public void lebenspunkteAusgeben() {
+        for (int i =0; i<h.length; i++) {
+            System.out.println(h[i].getLebenspunkte())
+        }
+    }
+
+    public void angriffswertAusgeben() {
+        for (int i =0; i<h.length; i++) {
+            System.out.println(h[i].getAngriffswert())
         }
     }
     

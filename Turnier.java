@@ -16,7 +16,8 @@ public class Turnier {
         for(int i = 0; i< m.length; i++) {
             m[i] = new Monster();
         }
-        
+
+        namenAusgeben();
     }
     public Held gibStaerkstenHeld() {
         Held staerkster = h[0];
@@ -28,7 +29,7 @@ public class Turnier {
         return staerkster;
     }
 
-    public void NamenAusgeben() {
+    public void namenAusgeben() {
         for(int i =0; i<h.length; i++) {
             System.out.println(h[i].getName)
         }

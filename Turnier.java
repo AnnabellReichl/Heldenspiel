@@ -27,5 +27,11 @@ public class Turnier {
         }
         return staerkster;
     }
+
+    public void NamenAusgeben() {
+        for(int i =0; i<h.length; i++) {
+            System.out.println(h[i].getName)
+        }
+    }
     
 }
